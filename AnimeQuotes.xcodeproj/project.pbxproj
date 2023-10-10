@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		328DD97A2A6662CD001B14A2 /* AnimeQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9792A6662CD001B14A2 /* AnimeQuotesApp.swift */; };
+		328DD97E2A6662CE001B14A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328DD97D2A6662CE001B14A2 /* Assets.xcassets */; };
+		328DD9822A6662CE001B14A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328DD9812A6662CE001B14A2 /* Preview Assets.xcassets */; };
+		328DD98C2A6662CF001B14A2 /* AnimeQuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD98B2A6662CF001B14A2 /* AnimeQuotesTests.swift */; };
+		328DD9962A6662CF001B14A2 /* AnimeQuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9952A6662CF001B14A2 /* AnimeQuotesUITests.swift */; };
+		328DD9982A6662CF001B14A2 /* AnimeQuotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9972A6662CF001B14A2 /* AnimeQuotesUITestsLaunchTests.swift */; };
+		328DD9A62A66633D001B14A2 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9A52A66633D001B14A2 /* SplashScreen.swift */; };
+		328DD9A82A66669F001B14A2 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9A72A66669F001B14A2 /* DashBoardView.swift */; };
+		328DD9AA2A667A82001B14A2 /* NarutoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9A92A667A82001B14A2 /* NarutoView.swift */; };
+		328DD9AF2A667D79001B14A2 /* DashBoardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9AE2A667D79001B14A2 /* DashBoardVM.swift */; };
+		328DD9B12A669863001B14A2 /* NarutoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9B02A669863001B14A2 /* NarutoVM.swift */; };
+		328DD9B32A66ABB2001B14A2 /* OnePiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9B22A66ABB2001B14A2 /* OnePiece.swift */; };
+		328DD9B52A66AC79001B14A2 /* OnePieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9B42A66AC79001B14A2 /* OnePieceView.swift */; };
+		328DD9B92A66BDCF001B14A2 /* ItachiQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DD9B82A66BDCF001B14A2 /* ItachiQuotesView.swift */; };
+		32FB10F22A67C6B00085EFDE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB10F12A67C6B00085EFDE /* Constants.swift */; };
+		32FB10F52A67C9670085EFDE /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB10F42A67C9670085EFDE /* AudioManager.swift */; };
+		32FB10F72A67CB8B0085EFDE /* SpeechReconiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB10F62A67CB8B0085EFDE /* SpeechReconiger.swift */; };
+		32FB10FA2A67DF810085EFDE /* ItachiQutoesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB10F92A67DF810085EFDE /* ItachiQutoesVM.swift */; };
+		32FB10FC2A67EAA00085EFDE /* Liger.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32FB10FB2A67EAA00085EFDE /* Liger.ttf */; };
+		32FB10FE2A67ED690085EFDE /* SasukeQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB10FD2A67ED690085EFDE /* SasukeQView.swift */; };
+		32FB11002A680DCB0085EFDE /* ShikamaruQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB10FF2A680DCB0085EFDE /* ShikamaruQView.swift */; };
+		32FB11022A6810900085EFDE /* ObitoUchihaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB11012A6810900085EFDE /* ObitoUchihaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		328DD9882A6662CF001B14A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328DD96E2A6662CD001B14A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328DD9752A6662CD001B14A2;
+			remoteInfo = AnimeQuotes;
+		};
+		328DD9922A6662CF001B14A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328DD96E2A6662CD001B14A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328DD9752A6662CD001B14A2;
+			remoteInfo = AnimeQuotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		328DD9762A6662CD001B14A2 /* AnimeQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		328DD9792A6662CD001B14A2 /* AnimeQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesApp.swift; sourceTree = "<group>"; };
+		328DD97D2A6662CE001B14A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		328DD97F2A6662CE001B14A2 /* AnimeQuotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimeQuotes.entitlements; sourceTree = "<group>"; };
+		328DD9812A6662CE001B14A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		328DD9872A6662CF001B14A2 /* AnimeQuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeQuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		328DD98B2A6662CF001B14A2 /* AnimeQuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesTests.swift; sourceTree = "<group>"; };
+		328DD9912A6662CF001B14A2 /* AnimeQuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeQuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		328DD9952A6662CF001B14A2 /* AnimeQuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesUITests.swift; sourceTree = "<group>"; };
+		328DD9972A6662CF001B14A2 /* AnimeQuotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		328DD9A52A66633D001B14A2 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		328DD9A72A66669F001B14A2 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		328DD9A92A667A82001B14A2 /* NarutoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarutoView.swift; sourceTree = "<group>"; };
+		328DD9AE2A667D79001B14A2 /* DashBoardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVM.swift; sourceTree = "<group>"; };
+		328DD9B02A669863001B14A2 /* NarutoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarutoVM.swift; sourceTree = "<group>"; };
+		328DD9B22A66ABB2001B14A2 /* OnePiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePiece.swift; sourceTree = "<group>"; };
+		328DD9B42A66AC79001B14A2 /* OnePieceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePieceView.swift; sourceTree = "<group>"; };
+		328DD9B82A66BDCF001B14A2 /* ItachiQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItachiQuotesView.swift; sourceTree = "<group>"; };
+		32FB10F12A67C6B00085EFDE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		32FB10F42A67C9670085EFDE /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		32FB10F62A67CB8B0085EFDE /* SpeechReconiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechReconiger.swift; sourceTree = "<group>"; };
+		32FB10F92A67DF810085EFDE /* ItachiQutoesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItachiQutoesVM.swift; sourceTree = "<group>"; };
+		32FB10FB2A67EAA00085EFDE /* Liger.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Liger.ttf; path = ../../../../../Downloads/Liger.ttf; sourceTree = "<group>"; };
+		32FB10FD2A67ED690085EFDE /* SasukeQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SasukeQView.swift; sourceTree = "<group>"; };
+		32FB10FF2A680DCB0085EFDE /* ShikamaruQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShikamaruQView.swift; sourceTree = "<group>"; };
+		32FB11012A6810900085EFDE /* ObitoUchihaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObitoUchihaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		328DD9732A6662CD001B14A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328DD9842A6662CF001B14A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328DD98E2A6662CF001B14A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328DD96D2A6662CD001B14A2 = {
+			isa = PBXGroup;
+			children = (
+				328DD9782A6662CD001B14A2 /* AnimeQuotes */,
+				328DD98A2A6662CF001B14A2 /* AnimeQuotesTests */,
+				328DD9942A6662CF001B14A2 /* AnimeQuotesUITests */,
+				328DD9772A6662CD001B14A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		328DD9772A6662CD001B14A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				328DD9762A6662CD001B14A2 /* AnimeQuotes.app */,
+				328DD9872A6662CF001B14A2 /* AnimeQuotesTests.xctest */,
+				328DD9912A6662CF001B14A2 /* AnimeQuotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		328DD9782A6662CD001B14A2 /* AnimeQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				32FB10F82A67DF6D0085EFDE /* Model */,
+				32FB10F32A67C6BB0085EFDE /* Constants */,
+				328DD9AD2A667D65001B14A2 /* ViewModel */,
+				328DD9A42A6662FC001B14A2 /* View */,
+				328DD9792A6662CD001B14A2 /* AnimeQuotesApp.swift */,
+				328DD97D2A6662CE001B14A2 /* Assets.xcassets */,
+				328DD97F2A6662CE001B14A2 /* AnimeQuotes.entitlements */,
+				328DD9802A6662CE001B14A2 /* Preview Content */,
+			);
+			path = AnimeQuotes;
+			sourceTree = "<group>";
+		};
+		328DD9802A6662CE001B14A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				328DD9812A6662CE001B14A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		328DD98A2A6662CF001B14A2 /* AnimeQuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				328DD98B2A6662CF001B14A2 /* AnimeQuotesTests.swift */,
+			);
+			path = AnimeQuotesTests;
+			sourceTree = "<group>";
+		};
+		328DD9942A6662CF001B14A2 /* AnimeQuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				328DD9952A6662CF001B14A2 /* AnimeQuotesUITests.swift */,
+				328DD9972A6662CF001B14A2 /* AnimeQuotesUITestsLaunchTests.swift */,
+			);
+			path = AnimeQuotesUITests;
+			sourceTree = "<group>";
+		};
+		328DD9A42A6662FC001B14A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				328DD9A52A66633D001B14A2 /* SplashScreen.swift */,
+				328DD9A72A66669F001B14A2 /* DashBoardView.swift */,
+				328DD9B42A66AC79001B14A2 /* OnePieceView.swift */,
+				328DD9A92A667A82001B14A2 /* NarutoView.swift */,
+				328DD9B82A66BDCF001B14A2 /* ItachiQuotesView.swift */,
+				32FB10FD2A67ED690085EFDE /* SasukeQView.swift */,
+				32FB11012A6810900085EFDE /* ObitoUchihaView.swift */,
+				32FB10FF2A680DCB0085EFDE /* ShikamaruQView.swift */,
+				32FB10FB2A67EAA00085EFDE /* Liger.ttf */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		328DD9AD2A667D65001B14A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				32FB10F92A67DF810085EFDE /* ItachiQutoesVM.swift */,
+				328DD9AE2A667D79001B14A2 /* DashBoardVM.swift */,
+				328DD9B02A669863001B14A2 /* NarutoVM.swift */,
+				328DD9B22A66ABB2001B14A2 /* OnePiece.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		32FB10F32A67C6BB0085EFDE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				32FB10F12A67C6B00085EFDE /* Constants.swift */,
+				32FB10F42A67C9670085EFDE /* AudioManager.swift */,
+				32FB10F62A67CB8B0085EFDE /* SpeechReconiger.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		32FB10F82A67DF6D0085EFDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		328DD9752A6662CD001B14A2 /* AnimeQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328DD99B2A6662CF001B14A2 /* Build configuration list for PBXNativeTarget "AnimeQuotes" */;
+			buildPhases = (
+				328DD9722A6662CD001B14A2 /* Sources */,
+				328DD9732A6662CD001B14A2 /* Frameworks */,
+				328DD9742A6662CD001B14A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimeQuotes;
+			productName = AnimeQuotes;
+			productReference = 328DD9762A6662CD001B14A2 /* AnimeQuotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		328DD9862A6662CF001B14A2 /* AnimeQuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328DD99E2A6662CF001B14A2 /* Build configuration list for PBXNativeTarget "AnimeQuotesTests" */;
+			buildPhases = (
+				328DD9832A6662CF001B14A2 /* Sources */,
+				328DD9842A6662CF001B14A2 /* Frameworks */,
+				328DD9852A6662CF001B14A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328DD9892A6662CF001B14A2 /* PBXTargetDependency */,
+			);
+			name = AnimeQuotesTests;
+			productName = AnimeQuotesTests;
+			productReference = 328DD9872A6662CF001B14A2 /* AnimeQuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		328DD9902A6662CF001B14A2 /* AnimeQuotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328DD9A12A6662CF001B14A2 /* Build configuration list for PBXNativeTarget "AnimeQuotesUITests" */;
+			buildPhases = (
+				328DD98D2A6662CF001B14A2 /* Sources */,
+				328DD98E2A6662CF001B14A2 /* Frameworks */,
+				328DD98F2A6662CF001B14A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328DD9932A6662CF001B14A2 /* PBXTargetDependency */,
+			);
+			name = AnimeQuotesUITests;
+			productName = AnimeQuotesUITests;
+			productReference = 328DD9912A6662CF001B14A2 /* AnimeQuotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		328DD96E2A6662CD001B14A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					328DD9752A6662CD001B14A2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					328DD9862A6662CF001B14A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 328DD9752A6662CD001B14A2;
+					};
+					328DD9902A6662CF001B14A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 328DD9752A6662CD001B14A2;
+					};
+				};
+			};
+			buildConfigurationList = 328DD9712A6662CD001B14A2 /* Build configuration list for PBXProject "AnimeQuotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 328DD96D2A6662CD001B14A2;
+			productRefGroup = 328DD9772A6662CD001B14A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				328DD9752A6662CD001B14A2 /* AnimeQuotes */,
+				328DD9862A6662CF001B14A2 /* AnimeQuotesTests */,
+				328DD9902A6662CF001B14A2 /* AnimeQuotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		328DD9742A6662CD001B14A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB10FC2A67EAA00085EFDE /* Liger.ttf in Resources */,
+				328DD9822A6662CE001B14A2 /* Preview Assets.xcassets in Resources */,
+				328DD97E2A6662CE001B14A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328DD9852A6662CF001B14A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328DD98F2A6662CF001B14A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		328DD9722A6662CD001B14A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328DD9B52A66AC79001B14A2 /* OnePieceView.swift in Sources */,
+				328DD9B92A66BDCF001B14A2 /* ItachiQuotesView.swift in Sources */,
+				328DD9A82A66669F001B14A2 /* DashBoardView.swift in Sources */,
+				328DD9AF2A667D79001B14A2 /* DashBoardVM.swift in Sources */,
+				328DD9A62A66633D001B14A2 /* SplashScreen.swift in Sources */,
+				32FB10F22A67C6B00085EFDE /* Constants.swift in Sources */,
+				32FB10FE2A67ED690085EFDE /* SasukeQView.swift in Sources */,
+				32FB10F72A67CB8B0085EFDE /* SpeechReconiger.swift in Sources */,
+				32FB11002A680DCB0085EFDE /* ShikamaruQView.swift in Sources */,
+				328DD9B12A669863001B14A2 /* NarutoVM.swift in Sources */,
+				32FB11022A6810900085EFDE /* ObitoUchihaView.swift in Sources */,
+				328DD97A2A6662CD001B14A2 /* AnimeQuotesApp.swift in Sources */,
+				328DD9AA2A667A82001B14A2 /* NarutoView.swift in Sources */,
+				32FB10F52A67C9670085EFDE /* AudioManager.swift in Sources */,
+				328DD9B32A66ABB2001B14A2 /* OnePiece.swift in Sources */,
+				32FB10FA2A67DF810085EFDE /* ItachiQutoesVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328DD9832A6662CF001B14A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328DD98C2A6662CF001B14A2 /* AnimeQuotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328DD98D2A6662CF001B14A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328DD9982A6662CF001B14A2 /* AnimeQuotesUITestsLaunchTests.swift in Sources */,
+				328DD9962A6662CF001B14A2 /* AnimeQuotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		328DD9892A6662CF001B14A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328DD9752A6662CD001B14A2 /* AnimeQuotes */;
+			targetProxy = 328DD9882A6662CF001B14A2 /* PBXContainerItemProxy */;
+		};
+		328DD9932A6662CF001B14A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328DD9752A6662CD001B14A2 /* AnimeQuotes */;
+			targetProxy = 328DD9922A6662CF001B14A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		328DD9992A6662CF001B14A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		328DD99A2A6662CF001B14A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		328DD99C2A6662CF001B14A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimeQuotes/AnimeQuotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimeQuotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cynoteck.AnimeQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		328DD99D2A6662CF001B14A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnimeQuotes/AnimeQuotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimeQuotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cynoteck.AnimeQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		328DD99F2A6662CF001B14A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cynoteck.AnimeQuotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeQuotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimeQuotes";
+			};
+			name = Debug;
+		};
+		328DD9A02A6662CF001B14A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cynoteck.AnimeQuotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeQuotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimeQuotes";
+			};
+			name = Release;
+		};
+		328DD9A22A6662CF001B14A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cynoteck.AnimeQuotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimeQuotes;
+			};
+			name = Debug;
+		};
+		328DD9A32A6662CF001B14A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cynoteck.AnimeQuotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimeQuotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		328DD9712A6662CD001B14A2 /* Build configuration list for PBXProject "AnimeQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328DD9992A6662CF001B14A2 /* Debug */,
+				328DD99A2A6662CF001B14A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328DD99B2A6662CF001B14A2 /* Build configuration list for PBXNativeTarget "AnimeQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328DD99C2A6662CF001B14A2 /* Debug */,
+				328DD99D2A6662CF001B14A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328DD99E2A6662CF001B14A2 /* Build configuration list for PBXNativeTarget "AnimeQuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328DD99F2A6662CF001B14A2 /* Debug */,
+				328DD9A02A6662CF001B14A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328DD9A12A6662CF001B14A2 /* Build configuration list for PBXNativeTarget "AnimeQuotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328DD9A22A6662CF001B14A2 /* Debug */,
+				328DD9A32A6662CF001B14A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 328DD96E2A6662CD001B14A2 /* Project object */;
+}
