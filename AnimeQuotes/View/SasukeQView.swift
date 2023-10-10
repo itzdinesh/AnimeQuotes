@@ -22,7 +22,7 @@ struct SasukeQView: View {
                         .cornerRadius(20)
                         .shadow(radius: 10)
                         .padding(.leading)
-                        .frame(width: UIScreen.main.bounds.width - 40)){
+                        .frame(width: UIScreen.main.bounds.width - 30)){
                     ForEach(itachiQuotesVm.sasukeQuotesArr, id: \.self) { item in
                        
                         Text("\(item)")
